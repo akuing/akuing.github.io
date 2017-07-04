@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+## 欢迎来到Akui的BLOG
 
-You can use the [editor on GitHub](https://github.com/akuing/akuing.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### 个人介绍
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* 现岗位为中国银行软件中心系统分析师，应用基础团队负责人，内部敏捷教练。
+* 在金融领域从事软件开发工作13年，拥有8年团队管理经验，带过70+人以上自有软件开发人员的团队，熟悉金融核心系统架构、业务分析。
+* 最近4年来从事互联网金融软件开发管理和技术研究，同时，致力于组织级敏捷开发方法的推广和实施，对大型组织的敏捷转型有实际的经验和体会。
+* CCEP、CSM、系统分析师
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+自我定位为一名技术型管理者，在进行管理工作的同时，多年来一直保持对技术工作的热爱。自接触敏捷后，对于大型机构的敏捷转型和敏捷转型下的管理者应如何自处，多有实践和思考。
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+### BLOG内容
 
-**Bold** and _Italic_ and `Code` text
+保存个人工作中的心得体会。
 
-[Link](url) and ![Image](src)
-```
+### 工作内容
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+《用Python做HTTP接口测试》一书，已经在百度阅读上架发布。该书致力于通过“闯关式学习”方法，破解很多测试工程师在自我提升的过程中普遍遇到的编程语言学习的难题。其第一部分主要介绍Python语言的快速入门，对于其他领域的从业者快速入门Python也很有帮助。
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/akuing/akuing.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+### 联系
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+a_kui at sina.com
+
