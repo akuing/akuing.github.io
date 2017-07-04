@@ -23,18 +23,18 @@ title: "运行所有以UT结尾的Junit单元测试类"
 ## 第二步 在test目录的package中增加一个RunUTs类（也可以用其他名字）
 
     package com.xxx.xxx.xxx;
-
+    
     import com.googlecode.junittoolbox.SuiteClasses;
     import com.googlecode.junittoolbox.WildcardPatternSuite;
     import org.junit.runner.RunWith;
-
+    
     /**
     * Created by akui on 2017/7/4.
     */
     @RunWith(WildcardPatternSuite.class)
     @SuiteClasses("**/*UT.class")
     public class RunUTs {
-}
+    }
 
 ## 第三步 运行RunUTs测试类
 
