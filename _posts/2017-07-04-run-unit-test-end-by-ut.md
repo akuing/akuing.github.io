@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "run unitest end by ut"
+title: "运行所有以UT结尾的Junit单元测试类"
 date: 2017-07-04
 ---
 
