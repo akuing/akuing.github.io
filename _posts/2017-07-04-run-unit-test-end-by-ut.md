@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "运行所有以UT结尾的Junit单元测试类"
-date: 2017-07-04
 ---
 
 运行所有以"UT"结尾的Junit单元测试案例类
@@ -11,7 +10,7 @@ date: 2017-07-04
 
 其实很简单，将所有的单元测试案例都以UT结尾，所有的集成测试都以IT结尾。使用junit-toolbox中的WildcardPatternSuite类可以很好的解决这个问题。
 
-##第一步 在pom中增加依赖
+## 第一步 在pom中增加依赖
 
     <dependency>
        <groupId>com.googlecode.junit-toolbox</groupId>
@@ -21,7 +20,7 @@ date: 2017-07-04
 
 注意：junit-toolbox在2.0以后的版本只支持Java 8 。我现在用的是Java 7 所以选了1.8版本。
 
-##第二步 在test目录的package中增加一个RunUTs类（也可以用其他名字）
+## 第二步 在test目录的package中增加一个RunUTs类（也可以用其他名字）
 
     package com.xxx.xxx.xxx;
 
@@ -37,11 +36,11 @@ date: 2017-07-04
     public class RunUTs {
 }
 
-##第三步 运行RunUTs测试类
+## 第三步 运行RunUTs测试类
 
 看看效果，这里就不上图了。
 
-###参考资料
+## 参考资料
 
 junit-toolbox帮助文档的 WildcardPatternSuite 章节。
 
