@@ -1,13 +1,4 @@
----
-layout: default
-title: 欢迎来到Akui的BLOG
----
 ## 欢迎来到Akui的BLOG
-
-
- {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-  {% endfor %}
 
 ### 个人介绍
 
