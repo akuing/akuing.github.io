@@ -1,6 +1,8 @@
+---
+layout: default
+title: 欢迎来到Akui的BLOG
+---
 ## 欢迎来到Akui的BLOG
-
-
 
 ### 个人介绍
 
