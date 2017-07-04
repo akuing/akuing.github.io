@@ -35,3 +35,9 @@
 
 看看效果，这里就不上图了。
 
+###参考资料
+
+junit-toolbox帮助文档的 WildcardPatternSuite 章节。
+
+    https://github.com/michaeltamm/junit-toolbox
+
