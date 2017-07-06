@@ -32,22 +32,9 @@
 </header>
 
 <div id="content-wrapper">
-    <div id="mycontainer">
-        <div style="font-color:#FFD700;float:left;margin-right:50px">
-            <a href="/"><h1>Home</h1></a>
-        </div>
-
-        <div style="font-color:#FFD700;float:left;margin-right:50px">
-
-            <a href="/blog"><h1>Blog</h1></a>
-        </div>
-        <div style="font-color:#FFD700;float:left;">
-            <a href="/about"><h1>About</h1></a>
-        </div>
-    </div>
 
     <div class="inner clearfix">
-        <div id="mycontainer2">
+        <div id="mycontainer">
             <div style="font-color:#FFD700;float:left;margin-right:50px">
                 <a href="/"><h1>Home</h1></a>
             </div>
@@ -64,19 +51,21 @@
             {{ content }}
         </section>
 
-        <aside id="sidebar">
 
-            <!--           {% if site.github.is_project_page %}
-                        <p class="repo-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</p>
-                      {% endif %} -->
-
-        </aside>
         <section id="addition-content">
             <ul>
                 <li>email:a_kui at sina.com</li>
                 <li><a href="https://github.com/akuing">github.com/akuing</a></li>
             </ul>
         </section>
+
+        <!--<aside id="sidebar">-->
+
+        <!--           {% if site.github.is_project_page %}
+                    <p class="repo-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</p>
+                  {% endif %} -->
+
+        <!--</aside>-->
     </div>
 </div>
 </body>
