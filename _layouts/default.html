@@ -18,20 +18,20 @@
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a> -->
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-        {% if site.github.is_project_page %}
+        <!-- <h2>本博客主要用于保存我写的书和文章</h2> -->
+
+<!--         {% if site.github.is_project_page %}
           <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a>
         {% endif %}
         {% if site.github.is_user_page %}
           <a href="{{ site.github.repository_url }}" class="button"><small>Follow me on</small> GitHub</a>
-        {% endif %}
+        {% endif %} -->
       </div>
  
   </header> <nav>
-   <ul>
-<li><a href="/">Home</a></li>
-<li><a href="/about">About</a></li>
-<li><a href="/blog">Blog</a></li>
-</ul>
+<a href="/" class="button">Home</a>
+<li><a href="/about" class="button">About</a>
+<li><a href="/blog" class="button">Blog</a>
     </nav>
     <div id="content-wrapper">
       <div class="inner clearfix">
