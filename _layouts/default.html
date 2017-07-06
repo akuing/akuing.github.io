@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
 
     <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <!-- <link rel="stylesheet" type="text/css" href="/css/main.css"> -->
   </head>
 
   <body>
@@ -28,14 +28,25 @@
         {% endif %} -->
       </div>
  
-  </header> <nav>
+  </header> 
+    <div id="content-wrapper">
+    <nav>
 <a href="/" class="button">Home</a>
 <li><a href="/about" class="button">About</a>
 <li><a href="/blog" class="button">Blog</a>
     </nav>
-    <div id="content-wrapper">
       <div class="inner clearfix">
+      <nav>
+<a href="/" class="button">Home</a>
+<li><a href="/about" class="button">About</a>
+<li><a href="/blog" class="button">Blog</a>
+    </nav>
         <section id="main-content">
+        <nav>
+<a href="/" class="button">Home</a>
+<li><a href="/about" class="button">About</a>
+<li><a href="/blog" class="button">Blog</a>
+    </nav>
           {{ content }}
         </section>
 
