@@ -1,69 +1,70 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
+<html lang="{{ site.lang | default: " en-US" }}">
+<head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"
+          media="screen" type="text/css">
     <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
 
     <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
     <!-- <link rel="stylesheet" type="text/css" href="/css/main.css"> -->
-  </head>
+</head>
 
-  <body>
-    <header>
-      <div class="inner">
-<!--         <a href="{{ '/' | absolute_url }}">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        </a> -->
+<body>
+<header>
+    <div class="inner">
+        <!--         <a href="{{ '/' | absolute_url }}">
+                  <h1>{{ site.title | default: site.github.repository_name }}</h1>
+                </a> -->
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
         <h3 style="font-color:white;">本博客主要用于保存我写的书和文章</h3>
 
-<!--         {% if site.github.is_project_page %}
-          <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a>
-        {% endif %}
-        {% if site.github.is_user_page %}
-          <a href="{{ site.github.repository_url }}" class="button"><small>Follow me on</small> GitHub</a>
-        {% endif %} -->
-      </div>
- 
-  </header> 
-  <div id="mycontainer">
-    <div style="font-color:#FFD700;float:left;margin-right:30px">
-        <a href="/"><h1>Home</h1></a>
+        <!--         {% if site.github.is_project_page %}
+                  <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a>
+                {% endif %}
+                {% if site.github.is_user_page %}
+                  <a href="{{ site.github.repository_url }}" class="button"><small>Follow me on</small> GitHub</a>
+                {% endif %} -->
     </div>
 
-    <div style="font-color:#FFD700;float:left;margin-right:30px">
+</header>
 
-        <a href="/blog"><h1>Blog</h1></a>
-    </div>
-    <div style="font-color:#FFD700;float:left;">
-        <a href="/about"><h1>About</h1></a>
-    </div>
-</div>
-    <div id="content-wrapper">
+<div id="content-wrapper">
 
-      <div class="inner clearfix">
+    <div class="inner clearfix">
+        <div id="mycontainer">
+            <div style="font-color:#FFD700;float:left;margin-right:30px">
+                <a href="/"><h1>Home</h1></a>
+            </div>
 
+            <div style="font-color:#FFD700;float:left;margin-right:30px">
+
+                <a href="/blog"><h1>Blog</h1></a>
+            </div>
+            <div style="font-color:#FFD700;float:left;">
+                <a href="/about"><h1>About</h1></a>
+            </div>
+        </div>
         <section id="main-content">
-              {{ content }}
+            {{ content }}
         </section>
 
         <aside id="sidebar">
 
-<!--           {% if site.github.is_project_page %}
-            <p class="repo-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</p>
-          {% endif %} -->
+            <!--           {% if site.github.is_project_page %}
+                        <p class="repo-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</p>
+                      {% endif %} -->
 
         </aside>
-           <ul>
-   <li>email:a_kui at sina.com</li>
-   <li><a href="https://github.com/akuing">github.com/akuing</a></li>
-   </ul>
+        <ul>
+            <li>email:a_kui at sina.com</li>
+            <li><a href="https://github.com/akuing">github.com/akuing</a></li>
+        </ul>
 
-      </div>
     </div>
- </body>
+</div>
+</body>
 
 </html>
