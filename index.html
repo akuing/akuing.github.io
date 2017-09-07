@@ -1,25 +1,36 @@
+--- 
+layout: default 
+title: 阿奎的博客空间 
 ---
-layout: default
-title: 阿奎的博客空间
----
-
-
 <h1>阿奎的书</h1>
+<br>
+<div class="lead">
+	<p>
+		<a href="https://yuedu.baidu.com/ebook/4a3da898dc88d0d233d4b14e852458fb770b38b2">《用Python做HTTP接口测试》</a>一书，已经在<strong>百度阅读</strong>上架发布。</p>
 
-        《用Python做HTTP接口测试》一书，已经在**百度阅读**上架发布。该书致力于通过“闯关式学习”方法，破解很多测试工程师在自我提升的过程中普遍遇到的编程语言学习的难题。其第一部分主要介绍Python语言的快速入门，对于其他领域的从业者快速入门Python也很有帮助。
-
+	<p>
+		本书就为有志于通过自学完成从手工测试到自动化测试转型和技能提升的软件测试从业者而准备，特别适合作为从手工测试到自动化测试转型的起手教材。
+	</p>
+	<p>
+		相信很多同学都有过自学的软件测试或者其他技能经历，期间的坚持与放弃的挣扎，学习方向的迷茫，学习资料的收集，学习内容选择，甘苦自知。</p>
+	本书采用“闯关式学习方法”编纂而成，特别适合与自学。其第一部分主要介绍Python语言的快速入门，对于其他领域的从业者快速入门Python也很有帮助。</p>
+</div>
 <h1>阿奎的文章</h1>
-<ul class="posts">
+<br>
+<div class="lead">
+	<ul class="posts">
 
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-  {% endfor %}
-    
-</ul>
+		{% for post in site.posts %}
+		<li><span>{{ post.date | date_to_string }}</span> &raquo;
+			<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		</li>
+		{% endfor %}
 
+	</ul>
+</div>
 
-<hr>
-
-        <div class="blurb">
-            <a href="/about">关于我的。。。。。。</a></p>
-        </div> 
+<h1>阿奎的演讲</h1>
+<br>
+<div class="lead">
+	<a href="/speaking/2017-08-23-TID_Speaking.html">舰船在行动——大型企业开发部门敏捷转型实践分享</a>
+</div>

@@ -1,14 +1,18 @@
+--- 
+layout: default 
+title: 阿奎的博客 
 ---
-layout: default
-title: 阿奎的博客
----
+
 
 
 <h1>{{ page.title }}</h1>
-<ul class="posts">
+<br>
+<ul class="posts lead">
 
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-  {% endfor %}
-    
+	{% for post in site.posts %}
+	<li><span>{{ post.date | date_to_string }}</span> &raquo;
+		<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+	</li>
+	{% endfor %}
+
 </ul>

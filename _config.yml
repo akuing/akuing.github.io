@@ -1,3 +1,6 @@
 name: 阿奎的博客
 permalink: /blog/:year/:month/:day/:title
 theme: jekyll-theme-architect
+
+description: > # this means to ignore newlines until "baseurl:"
+  阿奎的博客，有我的文章、书和演讲内容

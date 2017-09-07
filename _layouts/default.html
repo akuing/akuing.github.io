@@ -1,70 +1,76 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: " en-US" }}">
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"
-          media="screen" type="text/css">
-    <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
+<html lang="{{ site.lang | default: " en-US " }}">
 
-    <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
-    <!-- <link rel="stylesheet" type="text/css" href="/css/main.css"> -->
-</head>
+	<head>
+		<meta charset='utf-8'>
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
+		<link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
 
-<body>
-<header>
-    <div class="inner">
-        <!--         <a href="{{ '/' | absolute_url }}">
-                  <h1>{{ site.title | default: site.github.repository_name }}</h1>
-                </a> -->
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-        <h3 style="font-color:#FFFFFF;">本博客主要用于保存我写的书和文章</h3>
+		<title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
+		<!-- <link rel="stylesheet" type="text/css" href="/css/main.css"> -->
+		<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-        <!--         {% if site.github.is_project_page %}
-                  <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a>
-                {% endif %}
-                {% if site.github.is_user_page %}
-                  <a href="{{ site.github.repository_url }}" class="button"><small>Follow me on</small> GitHub</a>
-                {% endif %} -->
-    </div>
+		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<!--		<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
+	</head>
 
-</header>
+	<body>
+		<header>
+			<div class="inner row">
+				<div class="col-md-4 text-right">
+					<img class="img-circle" src="https://avatars3.githubusercontent.com/u/10909656?v=3&amp;s=460" height="50" width="50">
+				</div>
+				<div class="col-md-8">
+					<h2>{{ site.description | default: site.github.project_tagline }}</h2>
+				</div>
+			</div>
 
-<div id="content-wrapper">
+		</header>
 
-    <div class="inner clearfix">
-        <div id="mycontainer">
-            <div style="font-color:#FFD700;float:left;margin-right:50px">
-                <a href="/"><h1>Home</h1></a>
-            </div>
+		<div class="inner clearfix">
+			<div id="mycontainer" class="row">
+				<div class="col-md-2 text-left">
+					<a href="/">
+						<h1>Home</h1></a>
+				</div>
 
-            <div style="font-color:#FFD700;float:left;margin-right:50px">
+				<div class="col-md-2 text-left">
 
-                <a href="/blog"><h1>Blog</h1></a>
-            </div>
-            <div style="font-color:#FFD700;float:left;">
-                <a href="/about"><h1>About</h1></a>
-            </div>
-        </div>
-        <section id="main-content">
-            {{ content }}
+					<a href="/blog">
+						<h1>Blog</h1></a>
+				</div>
+				<div class="col-md-2 text-left">
+					<a href="/about">
+						<h1>About</h1></a>
+				</div>
+			</div>
+		</div>
 
-            <ul>
-                <li>email:a_kui at sina.com</li>
-                <li><a href="https://github.com/akuing">github.com/akuing</a></li>
-            </ul>
-        </section>
+		<div id="content-wrapper">
 
-        <!--<aside id="sidebar">-->
+			<div class="inner clearfix">
 
-        <!--           {% if site.github.is_project_page %}
+				<section id="main-content">
+					{{ content }}
+				</section>
+
+				<!--<aside id="sidebar">
+
+				           {% if site.github.is_project_page %}
                     <p class="repo-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</p>
-                  {% endif %} -->
+                  {% endif %} 
 
-        <!--</aside>-->
-    </div>
-</div>
-</body>
+				</aside>-->
+			</div>
+		</div>
+		<footer class="inner clearfix">
+			This is site data created from the demo by [Jonathan McGlone](http://jmcglone.com) and used in a [step-by-step beginners guide](http://jmcglone.com/guides/github-pages) to creating and hosting a personal website using GitHub and Jekyll. You can view the demo data at
+			<http://hankquinlan.github.io> and read the guide at
+				<http://jmcglone.com/guides/github-pages>.
+		</footer>
+	</body>
 
 </html>
