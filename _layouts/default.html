@@ -15,33 +15,49 @@
 
 		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 <!--		<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
-	</head>
+
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+			var hm = document.createElement("script");
+			hm.src = "https://hm.baidu.com/hm.js?e798185f6fb8d4680a600e5bce9364a4";
+			var s = document.getElementsByTagName("script")[0]; 
+			s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
+    </head>
 
 	<body>
-		<header>
-			<div class="inner row">
-				<div class="col-md-4 text-right">
+<header>
+	<div class="inner">
+		<!--<div class="col-md-4 text-right">
 					<img class="img-circle" src="https://avatars3.githubusercontent.com/u/10909656?v=3&amp;s=460" height="50" width="50">
-				</div>
-				<div class="col-md-8">
-					<h2>{{ site.description | default: site.github.project_tagline }}</h2>
-				</div>
+				</div>-->
+		<div id="mycontainer" class="row">
+			<div class="col-md-8">
+				<h2>{{ site.description | default: site.github.project_tagline }}</h2>
 			</div>
+		</div>
+	</div>
 
-		</header>
+</header>
 
 		<div class="inner">
 			<div id="mycontainer" class="row">
 				<div class="col-md-2 text-left">
 					<a href="/">
-						<h1>Home</h1></a>
+						<h1>Book</h1></a>
 				</div>
 
 				<div class="col-md-2 text-left">
 
 					<a href="/blog">
-						<h1>Blog</h1></a>
+						<h1>Article</h1></a>
 				</div>
+				<!-- <div class="col-md-2 text-left">
+					<a href="/about">
+						<h1>Speaking</h1></a>
+				</div> -->
 				<div class="col-md-2 text-left">
 					<a href="/about">
 						<h1>About</h1></a>
