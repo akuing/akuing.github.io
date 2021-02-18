@@ -1,0 +1,75 @@
+--- 
+layout: default 
+title: 阿奎的博客空间 
+---
+<h1>阿奎的书</h1>
+<br>
+<div class="lead">
+
+	<img src="../images/book.jpg" height="250" width="200"><img>
+	<p>
+		<strong>测试从业者的第一本编程书</strong>，
+		<a href="https://search.jd.com/Search?keyword=python%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80%E4%B8%8Ehttp%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95&enc=utf-8&wq=python%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80%E4%B8%8Ehttp%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95">《Python编程基础与HTTP接口测试》</a>已经由电子工业出版社正式出版上市，可以在天猫、京东等各大线上平台搜索书名，购买！
+	</p>
+
+	<p>
+		这是一本面向希望转型为自动化测试工程师的软件测试从业者的书，特别适合作为第一次学习一门编程语言的软件测试工程师，通过“闯关式学习”，掌握Python语言的基础技能，再以HTTP接口测试为应用场景，来学习和掌握Python在接口测试领域的相关知识点和使用技巧，做到学以致用，学有所用。
+	</p>
+	<p>
+		所谓闯关式学习方法，通俗地讲，就是通过不断的刻意练习，打通一个一个的练习关卡，来进行自我提升和学习的方法。
+	</p>
+	<p>
+
+		“我一直认为，学习软件开发、测试技能，和学习骑自行车、游泳一样，是一项技能的修炼，而非仅仅是知识或者概念的掌握，而要习得一项技能需要刻意练习。”成就超凡技艺的过程，实际上是一个“锤炼”的过程，也就是“刻意练习”的过程。
+	</p>
+	<p>
+		这本书不能代替你在学习中的努力和付出，但是，可以让第一次接触编程的学习者，学习的道路不在那么泥泞和曲折。
+
+	</p>
+	<hr>
+	<img src="../images/ebook.jpg" height="200" width="250"><img>
+	<p>
+		<a href="https://yuedu.baidu.com/ebook/4a3da898dc88d0d233d4b14e852458fb770b38b2">《用Python做HTTP接口测试》</a>一书，已经在
+		<strong>百度阅读</strong>上架发布。</p>
+
+	<p>
+		本书就为有志于通过自学完成从手工测试到自动化测试转型和技能提升的软件测试从业者而准备，特别适合作为从手工测试到自动化测试转型的起手教材。
+	</p>
+	<p>
+		相信很多同学都有过自学的软件测试或者其他技能经历，期间的坚持与放弃的挣扎，学习方向的迷茫，学习资料的收集，学习内容选择，甘苦自知。
+	</p>
+	<p>
+		本书采用“闯关式学习方法”编纂而成，特别适合与自学。其第一部分主要介绍Python语言的快速入门，对于其他领域的从业者快速入门Python也很有帮助。</p>
+	<hr>
+</div>
+<h1>阿奎的文章</h1>
+<br>
+<div class="lead">
+	<ul class="posts">
+
+		{% for post in site.posts %}
+		<li>
+			<span>{{ post.date | date_to_string }}</span> &raquo;
+			<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		</li>
+		{% endfor %}
+	</ul>
+</div>
+
+<h1>阿奎的演讲</h1>
+<br>
+<div class="lead">
+	<a href="/speaking/2017-08-23-TID_Speaking.html">舰船在行动——大型企业开发部门敏捷转型实践分享</a>
+</div>
+
+<h1>软件测试行业现状2018年度报告</h1>
+<br>
+<div class="lead">
+	<a href="/html/state_of_report_2018.html">《软件测试行业现状2018年度报告》解读</a>
+</div>
+
+<h1>软件测试行业现状2019年度报告</h1>
+<br>
+<div class="lead">
+	<a href="/html/state_of_report_2019-survey.html">软件测试行业调查2019已经开启</a>，欢迎点击链接参与调查！
+</div>
