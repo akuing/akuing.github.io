@@ -14,11 +14,11 @@ theme: minimal-mistakes-jekyll
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "aqua" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "zh_CHS"
-title                    : "阿奎的博客 - My Awesome Site"
+title                    : "阿奎的博客"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "阿奎"
@@ -98,7 +98,7 @@ analytics:
 author:
   name             : "Akui"
   avatar           : "https://avatars3.githubusercontent.com/u/10909656?v=3&amp;s=460"
-  bio              : "I am an **amazing** person."
+  bio              : "Positioned as a technical manager, I have been loving technical work for many years while responsible for management work."
   location         : "Beijing, China"
   email            :
   links:
