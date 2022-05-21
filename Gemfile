@@ -1,7 +1,8 @@
-# source "https://repo.huaweicloud.com/repository/rubygems/"
+source "https://repo.huaweicloud.com/repository/rubygems/"
 gem "minimal-mistakes-jekyll"
 gem 'jekyll-archives'
 gem "kramdown-parser-gfm"
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 group :jekyll_plugins do
     gem "jekyll-data"
 end
