@@ -78,7 +78,7 @@ Run weixin with --no-sandbox
 
     weixin --no-sandbox"
 
-Notice: Don't run weixin with sudo. If you got the error message of no permission to access the .config file etc, chmod command is what you need.
+Notice: **Don't run Wechat with sudo.** If you got the error message of no permission to access the .config file etc, chmod command is what you need.
 
 Got the idea from [Lei Mao's blog](https://leimao.github.io/blog/Docker-WeChat//).
 
